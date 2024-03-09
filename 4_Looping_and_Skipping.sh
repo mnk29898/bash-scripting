@@ -3,7 +3,7 @@
 ######
 # Author : M Nanda Kiran
 # To print Odd numbers betweem 1 and 99
-# Version : 1.0
+# Version : 2.0
 ######
 
-for i in {1..99}; do if (($i%2!=0)); then echo $i; fi; done
+for ((i=1; i<=99; i+=2)); do echo $i; done
