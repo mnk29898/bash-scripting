@@ -3,7 +3,7 @@
 ######
 # Author : M Nanda Kiran
 # To loop numbers from 1 to 50
-# Version : 1.0
+# Version : 2.0
 ######
 
-for i in {1..50}; do echo $i; done
+seq 1 50
